@@ -1,0 +1,35 @@
+.flexbox{
+    display: flex;
+    height: 600px;
+}
+.swami{
+    filter: drop-shadow(15px 15px 15px rgb(23, 17, 17));
+}
+.text{
+    flex: 1 1 300px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 400px;
+    padding-top: 20px;
+    padding-left: 200px;
+    background-color:hsl(0, 4%, 46%);
+    border-radius: 10px;
+    align-items: center;
+    text-align: justify;  /* For Edge */
+
+}
+.text{
+    margin-bottom: 20px;
+}
+.text2{
+    border-spacing: 0;
+}
+.link{
+    text-align: right;
+    text-decoration: underline;
+    color: black;
+}
+.quotes{
+    text-align: justify;
+}
